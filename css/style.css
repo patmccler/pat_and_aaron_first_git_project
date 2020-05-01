@@ -13,3 +13,37 @@ div.developer {
     padding: 6px;
     text-align: center;
   }
+
+.favorite-food {
+    border-left: groove;
+    border-top: groove;
+    border-bottom: inset;
+    border-right: inset;
+    border-width: 20px;
+    margin: 15px;
+    padding: 5px
+}
+
+
+
+.favorite-food ol {
+    text-align: justify;
+    list-style-position: inside;
+}
+
+.favorite-food h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+#best-food {
+    width: 25%;
+    margin: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
